@@ -10,8 +10,8 @@ RUN mkdir /app/data
 RUN mkdir /app/templates
 
 # Copy files in current directory
-ADD *.py /app
-ADD requirements.txt /app
+ADD *.py /app/
+ADD requirements.txt /app/
 ADD templates/* /app/templates/
 ADD data/* /app/data/
 
